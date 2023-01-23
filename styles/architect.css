@@ -1,0 +1,23 @@
+ *{
+    margin: 0;
+    font-family: font-family: 'Work Sans', sans-serif;
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+    .nav-title{
+        font-weight: 700;
+        font-size: 45px;
+        
+    }
+ }
+ nav ul{
+    display: flex;
+ }
+ nav li{
+    list-style: none;
+    margin-left: 50px;
+ }
