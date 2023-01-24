@@ -2,6 +2,19 @@
     margin: 0;
     font-family: font-family: 'Work Sans', sans-serif;
  }
+ .btn-primary{
+   height: 64px;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   background-color: orangered;
+   border: 0px;
+   align-items: center;
+ }
+ .text-primary{
+   color: orange;
+ }
+ 
 
  nav{
     display: flex;
@@ -20,4 +33,37 @@
  nav li{
     list-style: none;
     margin-left: 50px;
+ }
+ /* banner styles */
+ .banner{
+    margin: 0 200px;
+    
+}
+ .banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 20px;
+ }
+ .banner-description{
+    color: darkred ;
+    font-size: 18px;
+    margin-bottom: 30px;
+ }
+ .btn{
+    width: 180px;
+    height: 64px;
+ }
+ .img{
+    max-width: 1440;
+    max-height: 700;
+    margin: 50px 200px;
+ }
+ .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .team{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
  }
