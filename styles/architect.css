@@ -9,7 +9,10 @@
    color: white;
    background-color: orangered;
    border: 0px;
-   align-items: center;
+   padding: 18px 36px;
+   align: center;
+   margin-bottom: 20px;
+   position: ;
  }
  .text-primary{
    color: orange;
@@ -62,8 +65,20 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin: 50px 200px;
+   gap: 20px;
  }
  .team{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+ }
+ .litst-title{
+   color: orange ;
+   margin-bottom: 50px;
+ }
+ list-description{
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 50px;
  }
