@@ -18,7 +18,7 @@
    color: orange;
  }
  
-
+/* nav styles */
  nav{
     display: flex;
     justify-content: space-between;
@@ -27,8 +27,7 @@
     .nav-title{
         font-weight: 700;
         font-size: 45px;
-        
-    }
+        }
  }
  nav ul{
     display: flex;
@@ -52,7 +51,7 @@
     font-size: 18px;
     margin-bottom: 30px;
  }
- .btn{
+ .btn-primary{
     width: 180px;
     height: 64px;
  }
@@ -61,12 +60,13 @@
     max-height: 700;
     margin: 50px 200px;
  }
+ /* main container styles */
  .container{
    display: grid;
    grid-template-columns: repeat(2 1fr);
    margin: 50px 2oopx;
-   
- }
+   }
+   /* style of first content */
  .first-content{
    display: flex;
    justify-items: center;
@@ -75,11 +75,25 @@
     margin-top: 50px;
     margin-left: 200px;
  }
- .team{
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 20px;
+ .list-info{
+   .text-align: center;
+}
+ 
+ .litst-title{
+   color: orange ;
+   margin-bottom: 50px;
  }
+ list-description{
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 50px;
+ }
+ .btn{
+   width: 180px;
+   height: 64px;
+}
+ /* style of second content */
+ 
  .feature-info{
    text-align-last: left;
  }
@@ -102,19 +116,7 @@
    margin-top: 50px;
 }
 }
-.list-info{
-   align-items: center;
-}
- 
- .litst-title{
-   color: orange ;
-   margin-bottom: 50px;
- }
- list-description{
-   font-size: 18px;
-   font-weight: 400;
-   margin-bottom: 50px;
- }
+/* style of third content */
  .third-content{
    margin-top: 30px;
    margin-left: 200px;
@@ -143,6 +145,7 @@
    font-size: 24px;
    font-weight: 700;
 }
+/* styles of  fourth content */
 .sponsor-symbool{
    display: flex;
    gap: 20px;
@@ -165,7 +168,7 @@
    margin-bottom: 50px; 
    text-align: center; 
 }
-   
+   /*footer styles  */
 footer{
    background-color: peru;
    text-align: center;
