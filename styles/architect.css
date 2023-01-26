@@ -170,7 +170,11 @@
 .sponsor-description{
    ont-size: 18px;
    margin-bottom: 50px; 
-   text-align: center; 
+   text-align: center;
+   
+    /*sponor Rating  */
+}.fa-star{
+   color: gold;
 }
    /*footer styles  */
 footer{
@@ -182,5 +186,13 @@ footer{
        --------- ------*/
 
        /* Mobile Devices */
+
+       @media only screen (max-width:688px) {
+         
+       
        .container{width: 100%;}
+       .first-content, .second-content, .third-content{
+       grid-template-columns: repeat(1, 1fr);  
+       }
+      }
  
